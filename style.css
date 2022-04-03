@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;500&family=Nunito:ital,wght@1,900&family=Permanent+Marker&family=Poppins:wght@100&family=Ubuntu&display=swap');
+body {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: #080609;
+    max-width: 70%;
+    color: aliceblue;
+    font-display: white;
+}
+
+.name {
+    width: 100%;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    /* background-color:#110f12c9; */
+}
+
+.avatar{
+    max-width: 225px;
+    max-height: 225px;
+    margin-left: 0%;
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border-radius: 50%;
+}
+
+.avatar:hover {
+    max-width: 350px;
+    max-height: 350px;
+    margin-left: 0%;
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.avatar:not(hover) {
+    transition: 0.5s;
+}
+
+.blockname {
+    padding-left: 15px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Permanent Marker', cursive; */
+}
+
+#gmail {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+hr {
+    max-width: 92%;
+}
+
+.card {
+    background-color:#110f12c9;
+    border-radius: 30px;
+    width: 95%;
+    margin: auto;
+    height: 95%;
+}
+
+.workexp {
+    width: 90%;
+}
+
+.studexp {
+    width: 90%;
+}
+
+.langtab {
+    /* background-color: grey; */
+    width: 80%;
+    margin: auto;
+    /* max-width: 220px; */
+}
+.twocards {
+    width: 99%;
+    margin: auto;
+    /* background-color:slategrey; */
+}
+.twocardstd {
+    width: 50%;
+}
+.leftlangcard {
+    height: 250px;
+    width: 95%;
+    /* display: inline-block; */
+    margin: auto;
+    /* margin-right: 5px; */
+    /* float: inline-start; */
+    background-color:#110f12c9;
+    border-radius: 30px;
+    /* margin-right: 15px; */
+    /* margin-left: 23px; */
+    
+}
+
+.leftlangcard:hover {
+    width: 100%;
+    background-color: #514e52c9;
+    transition: 0.5s;
+    box-shadow: 0px 0px 8px 8px rgb(97, 97, 97);
+}
+
+.leftlangcard:not(hover) {
+    transition: 0.5s;
+}
+
+.rightlinkscard {
+    /* display: inline-block; */
+    margin: auto;
+    width: 95%;
+    background-color:#110f12c9;
+    border-radius: 30px;
+    height: 250px;
+    
+    /* margin-left: 15px; */
+
+}
+
+.rightlinkscard:hover {
+    width: 100%;
+    background-color: #514e52c9;
+    transition: 0.5s;
+    box-shadow: 0px 0px 8px 8px rgb(97, 97, 97);
+}
+
+.rightlinkscard:not(hover) {
+    transition: 0.5s;
+}
+
+.righttd {
+    text-align: right;
+}
+
+.descr {
+    margin-left: 40px;
+    line-height: 30px;
+}
+
+.card:hover {
+    width: 97%;
+    height: 97%;
+    background-color: #514e52c9;
+    transition: 0.5s;
+    box-shadow: 0px 0px 8px 8px rgb(97, 97, 97);
+}
+
+.card:not(hover) {
+    transition: 0.5s;
+}
+
+
+.bottomspace {
+    height: 500px;
+}
